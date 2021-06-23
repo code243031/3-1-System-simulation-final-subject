@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<!-- 경기 결과를 보여주는 페이지의 HTML -->
+<!-- Copyright © 2016 by MediaMongrels Ltd. -->
+<html>
+	<head>
+		<!-- Note: 클라이언트가 인터넷에 연결되어 있지 않다면 아래의 스크립트를 호출함 -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script src="js/websockets.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="icon" href="res/favicon.png" />
+		<link rel="shortcut icon" href="res/favicon.png" />
+		<title>경기 중계</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="container">
+				<h1>경기 중계 클라이언트</h1>
+
+				<div id="chatLog">
+
+				</div><!-- #chatLog -->
+				<p id="examples">※ 메세지 전송 시 영어로 전송해주세요.</p>
+				<label for="text">
+					<i>서버로 메세지 전송&nbsp;&nbsp;</i>
+				</label>
+				<input id="text" type="text" />
+				<button id="disconnect">연결 해제</button>
+
+			</div><!-- #container -->
+			<div id="container-bottom">
+				<div id="images">
+					<img width="15%" src="res/EPL.png"></img>
+					<img width="15%" src="res/KBO.png"></img>
+					<img width="10%" src="res/NBA.png"></img>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>​
